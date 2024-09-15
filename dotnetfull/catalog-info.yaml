@@ -1,0 +1,25 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "dotnetfull"
+  annotations:
+    github.com/project-slug: kubeosx/dotnetfull
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/kubernetes-id: "dotnetfull"
+    backstage.io/kubernetes-namespace: "dev"
+    prometheus.io/alert: all
+  tags:
+    - dotnet
+    - webapi
+  links:
+    - url: https://github.com/kubeosx/dotnetfull
+      icon: web
+      title: Github
+    - url: https://github.com/kubeosx/dotnetfull/issues
+      icon: web
+      title: Github Issues
+spec:
+  type: service
+  lifecycle: experimental
+  owner: 
+  system:  
